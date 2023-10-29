@@ -4,10 +4,11 @@ import { View, Text, StyleSheet } from 'react-native'
 
 const Heading = () => (
   <View style={styles.header}>
-    <Text style={styles.headerText}>todos</Text>
-    </View>
+    <Text style={styles.headerText}>Todos</Text>
+      
+    
+  </View>
 );
-
 
 const styles = StyleSheet.create({
   header: {
@@ -21,4 +22,4 @@ const styles = StyleSheet.create({
   }
 });
 
-export default Heading
+export default Heading;
